@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLogo"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="65dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/RelativeLogo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <RelativeLayout
+            android:id="@+id/RelativeDzpag"
+            android:layout_width="180dp"
+            android:layout_height="130dp"
+            android:onClick="btn_dzikirpagi">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:background="@drawable/shape2" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/sun"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeDzpet"
+            android:layout_width="180dp"
+            android:layout_height="130dp"
+            android:layout_alignParentRight="true"
+            android:onClick="btn_dzikirpetang">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape"
+                />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/moon" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/TextDzipag"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/RelativeDzpet">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="28dp"
+                android:background="@drawable/dzikirpagi"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/TextDzipet"
+            android:layout_alignParentRight="true"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/RelativeDzpet">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:background="@drawable/dzikirpetang"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/garis1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/TextDzipag"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C3C3C3"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeDzisho"
+            android:layout_width="180dp"
+            android:layout_height="130dp"
+            android:layout_below="@id/garis1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape3"
+                />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/texts"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeDzitid"
+            android:layout_width="180dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/garis1"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:onClick="btn_dzikirtidur">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape4"
+                />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/textt" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/TextDzisho"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/RelativeDzisho">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="22dp"
+                android:background="@drawable/sesudahsholat"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/TextDzitid"
+            android:layout_alignParentRight="true"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/RelativeDzitid">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="23dp"
+                android:background="@drawable/sebelumtidur"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/garis2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/TextDzisho"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C3C3C3"/>
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/garis2">
+            
+            <TextView
+                android:id="@+id/apaitudzikir"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:background="@drawable/apaitudzikirpagpet"
+                android:layout_marginTop="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_below="@id/apaitudzikir"
+                android:background="@drawable/dalildalildzik"
+                android:layout_marginTop="20dp"/>
+
+        </RelativeLayout>
+        
+
+    </RelativeLayout>
+
+</RelativeLayout>

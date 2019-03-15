@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/judulds"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/btn_home"
+            android:layout_width="40dp"
+            android:layout_height="31dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/home2"
+            android:onClick="btn_homepetang"/>
+
+        <TextView
+            android:id="@+id/gariskecil"
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="#D0CFCF"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/btn_home"
+            />
+
+        <TextView
+            android:id="@+id/juduldzikirpetang"
+            android:layout_marginLeft="15dp"
+            android:layout_width="105dp"
+            android:layout_height="46dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/dzipet"
+            android:layout_toRightOf="@+id/gariskecil"/>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="#D0CFCF"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/ListViewIDpet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/judulds">
+    </ListView>
+
+
+</RelativeLayout>
